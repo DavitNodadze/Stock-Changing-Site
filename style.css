@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color:#F7F7FA;
+    display: flex;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.topbar{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    padding: 15px 0;
+}
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    top: 0px;
+    left: 0px;
+    width: 228px;
+    height: 100%;
+    background-color:#FFFFFF;
+    padding: 10px 15px 10px 12px;
+}
+.placeholder {
+    cursor: pointer;
+}
+.First {
+    margin-left: 16px;
+    cursor: pointer;
+}
+.First:hover {
+    color: blue;
+}
+.Second {
+    margin-left: 16px;
+    color: #707070;
+    cursor: pointer;
+}
+.Second:hover {
+    color: blue;
+}
+.trader {
+    display: flex;
+    align-items: center;
+    margin: 10px 0px 30px 0px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin: 10px 0px 50px 0px;
+}
+
+.placeholder {
+    background-color: black;
+    border-radius: 5px;
+    height: 50px;
+    width: 50px;
+}
+.links{
+    display: flex;
+    margin: 27.5px 0px 0px 9px;
+    align-items: center;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.link-text{
+    margin-left: 16px;
+    font-size: 14px;
+    font-style: normal;
+    color: #A0AAB1;
+    cursor: pointer;
+}
+svg{
+    width: 24px;
+    fill: #9BA4AE;
+}
+
+svg:hover {
+    fill: red;
+}
+
+.link-text:hover {
+    color: blue;
+}
+
+
+.buttons {
+    padding: 0 12px;
+    cursor: pointer;
+}
+
+.topborder {
+    width: 100%;
+    display: flex;
+    background-color: darkgray;
+    height: 1px;
+}
+.mainbotbar {
+    display: flex;
+    justify-content: space-between;
+}
+.botbar1{
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+    align-items: center;
+}
+.botbar2 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    padding: 15px 0;
+}
+.buttons3 {
+    padding: 0 12px;
+    cursor: pointer;
+}
+.botborder {
+    width: 100%;
+    display: flex;
+    background-color: darkgray;
+    height: 1px;
+}
+.buttons2 {
+    padding: 0 12px;
+}
+.stocktext{
+    cursor: pointer;
+}
+.stocktext:hover {
+    color: blue;
+}
+.srchtext {
+    color: #A0AAB1;
+    cursor: pointer;
+}
+.srchtext:hover {
+    color: blue;
+}
+.inputstock {
+    border: none;
+    width: 145px;
+}
+.inputstock:focus {
+    outline: none;
+}
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    width: 194px;
+    height: 24px;
+    border: #EFEFEF;
+    background-color: white;
+    border-radius: 5px;
+}
+.search-icon {
+    width: 16px;
+    cursor: pointer;
+}
+
+.stock-market {
+    width: 196px;
+    height: 206px;
+    background-color: white;
+    border-radius: 10px;
+    border-color: gray;
+    margin: 41px 0 0 41px;
+    padding: 10px;
+}
+
+.stk-icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nio-texts {
+    margin-left: 7px;
+}
+.txt-nio {
+    font-size: 14px;
+    color: #262C4A;
+    font-family: Helvetica;
+}
+.inc-nio {
+    font-size: 10px;
+    height: 10px;
+    color: gray;
+}
+
+.plc-text {
+    display: flex;
+}
+.change-bar {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.change-text {
+    display: flex;
+}
+
+.chng-text {
+    font-size: 10px;
+    color: #A0AAB1;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+}
+
+.chng-text:hover {
+    color: blue;
+}
+
+.procentages {
+    display: flex;
+}
+.procen-text {
+    color: #EB5656;
+    cursor: pointer;
+}
+
+.triangle {
+    cursor: pointer;
+    fill: #EB5656;
+}
+
+.chart-red {
+    display: flex;
+    width: 183px;
+    height: 43px;
+    background-color: red;
+}
+
+.buy-sell {
+    display: flex;
+    justify-content: space-between;
+}
+.sell {
+    display: flex;
+    flex-direction: column;
+    width: 79px;
+    height: 56px;
+    background-color: #F7F7FA;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 16px;
+    border-radius: 5px;
+}
+
+.sell-text {
+    font-size: 14px;
+    color: #727272;
+    cursor: pointer;
+}
+
+.sell-price {
+    font-size: 14px;
+    color: #727272;
+    cursor: pointer;
+}
+
+.buy {
+    display: flex;
+    flex-direction: column;
+    width: 79px;
+    height: 56px;
+    margin-top: 16px;
+    justify-content: space-around;
+    background-color: #F7F7FA;
+    border-radius: 5px;
+}
+
+.buy-text {
+    font-size: 14px;
+    color: #FFFFFF;
+    background-color: #334457;
+    display: flex;
+    width: 75px;
+    height: 26px;
+    justify-content: space-around;
+    border-radius: 5px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.buy-price {
+    font-size: 14px;
+    padding-left: 21px;
+    cursor: pointer;
+}
+
